@@ -1,5 +1,5 @@
 .contact-content{  
-    height: 100vh;
+
     margin-top: 32px;
     padding: 9px;
     position: relative; 
@@ -8,7 +8,6 @@
   
   .contact-content::after {
     content: "";
-    background-image: url("../img/11.svg");
     position: absolute;
     top:0;
     width: 100%;

@@ -107,24 +107,7 @@ p{
     transition: transform 0.5s;
 }
 
-.card1{
-    background-image: url(images/project-1.jpg);
-}
-.card2{
-    background-image: url(images/project-2.jpg);
-}
-.card3{
-    background-image: url(images/project-3.jpg);
-}
-.card4{
-    background-image: url(images/project-1.jpg);
-}
-.card5{
-    background-image: url(images/project-2.jpg);
-}
-.card6{
-    background-image: url(images/project-3.jpg);
-}
+
 .card:hover{
     transform: translateY(-10px);
 }

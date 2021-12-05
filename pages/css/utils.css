@@ -64,11 +64,62 @@
 }
 
 .form-box input, textarea{
-  width: 52vw;
+  width: 30vw;
   padding: 0px 6px;
   margin: 7px 0;
   font-size: 18px;
   font-family: var(--font1);
   border: 2px solid var(--main-bg-color);
     border-radius: 5px;
+}
+
+.row{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+
+.col{
+  flex-basis: 50%;
+}
+.col2{
+  display: flex;
+  justify-content: right;
+  padding-top: 250px;
+}
+.footer{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 150px;
+}
+a{
+  height: 80px;
+  width: 80px;
+  background-color: #f5f6fa;
+  border-radius: 50px;
+  text-align: center;
+  margin: 10px;
+  line-height: 90px;
+  box-shadow:  1px 4px 2px 2px #dcdde1;
+}
+a i{
+  transition: all 0.3s linear;
+}
+a:hover i{
+  transform: scale(1.4);
+}
+
+.fa-github{
+  color: black;
+
+}
+.fa-linkedin{
+  color: #0097e6;
+}
+.fa-instagram{
+  color: #e84393;
+}
+.fa-telegram{
+  color: rgb(0, 195, 255);
 }

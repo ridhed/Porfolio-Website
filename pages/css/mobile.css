@@ -4,10 +4,6 @@
     margin-bottom: 23px;
   }
 
-  .nav-left {
-    flex-direction: column;
-    text-align: center;
-  }
 
   .content-right {
     display: none;
