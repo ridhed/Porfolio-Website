@@ -44,6 +44,7 @@ nav ul li a{
 nav ul li a button{
     display: inline-block;
     width: 180px;
+    height:auto;
     color: #000;
     cursor: pointer;
     text-align: center;
@@ -70,17 +71,6 @@ nav ul li a button:hover{
     color: white;
 }
 
-.row{
-    display: flex;
-    width:100%;
-    min-width:1000px;
-    height:auto;
-    align-items: center;
-}
-
-.col{
-    flex-basis: 50%;
-}
 
 h1{
     color: #fff;
@@ -95,8 +85,9 @@ p{
 }
 
 .card{
-    width: 150px;
-    height: 180px;
+    display: flex;
+    height:auto;
+    align-items: center;
     display: inline-block;
     border-radius: 10px;
     padding: 15px 25px;
